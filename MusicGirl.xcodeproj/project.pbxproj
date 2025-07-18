@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE9F175C2E2202420048320A /* StoreKitConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = AE9F175B2E2202420048320A /* StoreKitConfiguration.storekit */; };
+		AE9F17602E2205560048320A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9F175F2E2205560048320A /* StoreKit.framework */; };
+		AEA177632E1A54C400456EF0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AEA177622E1A54C400456EF0 /* .gitignore */; };
+		AEA177652E1A54CC00456EF0 /* CLAUDE.md in Resources */ = {isa = PBXBuildFile; fileRef = AEA177642E1A54CC00456EF0 /* CLAUDE.md */; };
+		AEA177672E1A54D900456EF0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEA177662E1A54D900456EF0 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4ADA3A2E191CE1007954D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4ADA242E191CDF007954D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4ADA2B2E191CDF007954D7;
+			remoteInfo = MusicGirl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95006AE52E2B0621005E2FAC /* English.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = English.md; sourceTree = "<group>"; };
+		95006AE62E2B0621005E2FAC /* Japanese.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Japanese.md; sourceTree = "<group>"; };
+		AE4ADA2C2E191CDF007954D7 /* MusicGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4ADA392E191CE1007954D7 /* MusicGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9F175B2E2202420048320A /* StoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKitConfiguration.storekit; sourceTree = "<group>"; };
+		AE9F175F2E2205560048320A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AEA177622E1A54C400456EF0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AEA177642E1A54CC00456EF0 /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+		AEA177662E1A54D900456EF0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		95F975BB2E270020009A1D72 /* Exceptions for "MusicGirl" folder in "MusicGirl" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AE4ADA2B2E191CDF007954D7 /* MusicGirl */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AE4ADA2E2E191CDF007954D7 /* MusicGirl */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				95F975BB2E270020009A1D72 /* Exceptions for "MusicGirl" folder in "MusicGirl" target */,
+			);
+			path = MusicGirl;
+			sourceTree = "<group>";
+		};
+		AE4ADA3C2E191CE1007954D7 /* MusicGirlTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MusicGirlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4ADA292E191CDF007954D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9F17602E2205560048320A /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4ADA362E191CE1007954D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95006AE72E2B0621005E2FAC /* PrivacyPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				95006AE52E2B0621005E2FAC /* English.md */,
+				95006AE62E2B0621005E2FAC /* Japanese.md */,
+			);
+			path = PrivacyPolicy;
+			sourceTree = "<group>";
+		};
+		95006AE82E2B0621005E2FAC /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				95006AE72E2B0621005E2FAC /* PrivacyPolicy */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		AE4ADA232E191CDF007954D7 = {
+			isa = PBXGroup;
+			children = (
+				AE9F175B2E2202420048320A /* StoreKitConfiguration.storekit */,
+				95006AE82E2B0621005E2FAC /* docs */,
+				AE4ADA2E2E191CDF007954D7 /* MusicGirl */,
+				AE4ADA3C2E191CE1007954D7 /* MusicGirlTests */,
+				AE4ADA2D2E191CDF007954D7 /* Products */,
+				AEA177622E1A54C400456EF0 /* .gitignore */,
+				AEA177642E1A54CC00456EF0 /* CLAUDE.md */,
+				AEA177662E1A54D900456EF0 /* README.md */,
+				AE9F175E2E2205560048320A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4ADA2D2E191CDF007954D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4ADA2C2E191CDF007954D7 /* MusicGirl.app */,
+				AE4ADA392E191CE1007954D7 /* MusicGirlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9F175E2E2205560048320A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE9F175F2E2205560048320A /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4ADA2B2E191CDF007954D7 /* MusicGirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4ADA4D2E191CE1007954D7 /* Build configuration list for PBXNativeTarget "MusicGirl" */;
+			buildPhases = (
+				AE4ADA282E191CDF007954D7 /* Sources */,
+				AE4ADA292E191CDF007954D7 /* Frameworks */,
+				AE4ADA2A2E191CDF007954D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AE4ADA2E2E191CDF007954D7 /* MusicGirl */,
+			);
+			name = MusicGirl;
+			packageProductDependencies = (
+			);
+			productName = MusicGirl;
+			productReference = AE4ADA2C2E191CDF007954D7 /* MusicGirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4ADA382E191CE1007954D7 /* MusicGirlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4ADA502E191CE1007954D7 /* Build configuration list for PBXNativeTarget "MusicGirlTests" */;
+			buildPhases = (
+				AE4ADA352E191CE1007954D7 /* Sources */,
+				AE4ADA362E191CE1007954D7 /* Frameworks */,
+				AE4ADA372E191CE1007954D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4ADA3B2E191CE1007954D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AE4ADA3C2E191CE1007954D7 /* MusicGirlTests */,
+			);
+			name = MusicGirlTests;
+			packageProductDependencies = (
+			);
+			productName = MusicGirlTests;
+			productReference = AE4ADA392E191CE1007954D7 /* MusicGirlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4ADA242E191CDF007954D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AE4ADA2B2E191CDF007954D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AE4ADA382E191CE1007954D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AE4ADA2B2E191CDF007954D7;
+					};
+				};
+			};
+			buildConfigurationList = AE4ADA272E191CDF007954D7 /* Build configuration list for PBXProject "MusicGirl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = AE4ADA232E191CDF007954D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AE4ADA2D2E191CDF007954D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4ADA2B2E191CDF007954D7 /* MusicGirl */,
+				AE4ADA382E191CE1007954D7 /* MusicGirlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4ADA2A2E191CDF007954D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA177632E1A54C400456EF0 /* .gitignore in Resources */,
+				AEA177672E1A54D900456EF0 /* README.md in Resources */,
+				AE9F175C2E2202420048320A /* StoreKitConfiguration.storekit in Resources */,
+				AEA177652E1A54CC00456EF0 /* CLAUDE.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4ADA372E191CE1007954D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4ADA282E191CDF007954D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4ADA352E191CE1007954D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4ADA3B2E191CE1007954D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4ADA2B2E191CDF007954D7 /* MusicGirl */;
+			targetProxy = AE4ADA3A2E191CE1007954D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE4ADA4B2E191CE1007954D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6G9A5395V2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4ADA4C2E191CE1007954D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6G9A5395V2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4ADA4E2E191CE1007954D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MusicGirl/MusicGirl.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G9A5395V2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicGirl/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "It is used to play music.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.utomica.MusicGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE4ADA4F2E191CE1007954D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MusicGirl/MusicGirl.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G9A5395V2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicGirl/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "It is used to play music.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.utomica.MusicGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE4ADA512E191CE1007954D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G9A5395V2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.utomica.AIMonster.MusicGirlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGirl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicGirl";
+			};
+			name = Debug;
+		};
+		AE4ADA522E191CE1007954D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G9A5395V2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.utomica.AIMonster.MusicGirlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGirl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicGirl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4ADA272E191CDF007954D7 /* Build configuration list for PBXProject "MusicGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4ADA4B2E191CE1007954D7 /* Debug */,
+				AE4ADA4C2E191CE1007954D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4ADA4D2E191CE1007954D7 /* Build configuration list for PBXNativeTarget "MusicGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4ADA4E2E191CE1007954D7 /* Debug */,
+				AE4ADA4F2E191CE1007954D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4ADA502E191CE1007954D7 /* Build configuration list for PBXNativeTarget "MusicGirlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4ADA512E191CE1007954D7 /* Debug */,
+				AE4ADA522E191CE1007954D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4ADA242E191CDF007954D7 /* Project object */;
+}
