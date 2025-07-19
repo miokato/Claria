@@ -20,8 +20,13 @@
       "internalID" : "6748548060",
       "localizations" : [
         {
-          "description" : "Apple Musicのクラシック音楽ラジオをお楽しみください。",
-          "displayName" : "ワンタップでクラシック音楽の世界へ",
+          "description" : "Buy me a coffee ☕️",
+          "displayName" : "Support",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "コーヒー1杯分のサポートをしていただけると嬉しいです ☕️",
+          "displayName" : "サポートする",
           "locale" : "ja"
         }
       ],
@@ -34,7 +39,7 @@
     "_applicationInternalID" : "6748287149",
     "_developerTeamID" : "6G9A5395V2",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 773980740.39384902,
+    "_lastSynchronizedDate" : 774579686.66917503,
     "_locale" : "en_US",
     "_storefront" : "USA",
     "_storeKitErrors" : [
