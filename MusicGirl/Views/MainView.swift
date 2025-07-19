@@ -15,7 +15,7 @@ struct MainView: View {
         HomeView()
             .onChange(of: musicStore.isInitialized) { _, isInitialized in
                 if isInitialized && musicStore.shouldShowAuthorizationView {
-//                    isShowAuthorizationView = true
+                    isShowAuthorizationView = true
                 }
             }
             .sheet(isPresented: $isShowAuthorizationView) {
